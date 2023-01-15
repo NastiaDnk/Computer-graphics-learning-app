@@ -1,0 +1,9 @@
+.content-wrapper{
+    height: 45.36vh;
+    width: 41.15vw;
+    background-color: white;
+    border-radius: 100px;
+    margin: 30vh 0 0 40vw;
+    padding: 5vh 0 0 2vw;
+    font-size: 4vh;
+}

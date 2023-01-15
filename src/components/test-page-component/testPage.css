@@ -1,0 +1,98 @@
+.tests-wrapper{
+    background-color: rgba(247, 236, 222, .3);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.decision-test{
+    background-color: #F7ECDE;
+    height: 80vh;
+    width: 80vw;
+    border-radius: 50px;
+    border-width: 0.4vw;
+    border-color: #818C25;
+    border-style: solid;
+}
+
+.buttons-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.ordinary-tests-wrapper{
+    background-color: rgb(247, 236, 222);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.test-types-selection{
+    display: flex;
+    flex-direction: column;
+    background-color: #F7ECDE;
+    height: 50vh;
+    width: 80vw;
+    margin: 8vh 0 0 10vw;
+}
+
+.go-home-btn{
+    height: 5vh;
+    width: 8vw;
+    border-radius: 50px;
+    font-size: 3vh;
+    display: block;
+    margin: 1vh auto;
+}
+
+.select-test-wrapper{
+    display: flex;
+    flex-direction: row;
+    background-color: #818C25;
+    height: 20vh;
+    width: 35vw;
+    border-radius: 50px;
+    border-radius: 50px;
+    border-width: 0.4vw;
+    border-color: #818C25;
+    border-style: solid;
+    margin: 1vh 0 0 0;
+}
+
+.select-test-wrapper:hover{
+    background-color: #F7ECDE;
+    height: 20vh;
+    width: 35vw;
+    border-radius: 50px;
+    border-width: 0.4vw;
+    border-color: #818C25;
+    border-style: solid;
+}
+
+.multiple-img{
+    height: 15vh;
+    width: 7vw;
+    margin: 3vh;
+}
+
+.multiple-text{
+    font-size: 8vh;
+    color: #F7ECDE;
+}
+
+.multiple-text:hover{
+    font-size: 8vh;
+    color: #818C25;
+}
+
+.test-decision-owl{
+    margin: -9vh 0 0 1vw;
+}
+
+.for-m{
+    margin-top: 1vh;
+}

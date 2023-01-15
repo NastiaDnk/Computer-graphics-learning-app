@@ -1,0 +1,7 @@
+[
+    {
+        "title":"Additive colour system is:",
+        "options":["RGB", "CMYK", "HSV", "HSL"],
+        "correctOptionIndex":"0"
+    }
+]

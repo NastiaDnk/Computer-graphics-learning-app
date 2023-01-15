@@ -1,0 +1,10 @@
+.content-wrapper{
+    height: 45.36vh;
+    width: 41.15vw;
+    background-color: white;
+    border-radius: 100px;
+    position:fixed;
+    left: 0;
+    top: 0;
+}
+

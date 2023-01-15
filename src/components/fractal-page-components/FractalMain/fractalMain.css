@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+.page-wrapper{
+    display: flex;
+    flex-direction: row;
+    background-color: #F7ECDE;
+    height: 91.4vh;
+}
+
+.wrapper{
+    width: auto;
+    color: #F7ECDE;
+    display: flex;
+    flex-direction: column;
+}
+
+
+button{
+    height: 8.6vh;
+    border-radius: 0;
+}
+
+.local-button{
+    display: flex;
+    justify-content: center;
+    padding: 1.5vh 0 0 0;
+    margin: 1vh 0 0 0;
+    width: 26.04vw;
+    height: 9.28vh;
+    font-size: 5vh;
+}
+
+.fractal-buttons-wrapper{
+    margin: 3vh 0 0 10vw;
+}
+
+.dragon-input-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 7.5vw;
+}
+
+.fractal-canvas{
+    margin: 0 4vh;
+    cursor: grab;
+}
+
+.canvas-wrapper-fr{
+    margin: 0 0 0 5vw;
+    width: 790px;
+    height: 600px;
+    margin: 4vh 0 0 0;
+}
+
+.export-button-wrapper{
+    margin: 0 0 0 4.3vw;
+}
+
+.export-button{
+    height: 7vh;
+    font-size: 3vh;
+    margin-left: 5.8vw;
+    text-align: left;
+    padding-left: 1vw;
+}
+
+.gr-wrapper{
+    height: 25.63vh;
+    width: 27.34vw;
+    background-color: #818C25;
+    border-radius: 100px 100px 100px 0;
+    margin: 10vh 0 0 0.4vw;
+    padding: 5vh 1vw 0 1vw;
+}
+
+.gr-text{
+    font-size: 3vh;
+}
+
+.koch-input-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin: 0 5vh;
+}
+
+.koch-button{
+    height: 7.6vh;
+    width: 27.8vw;
+    font-size: 3.1vh;
+    margin: 2vh 0 0 2vw;
+}
+
+.num-iter-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin: 2vh 0 0 2vw;
+}
+
+.num-iter-span{
+    margin: 2vh;
+    font-size: 3vh;
+    color: #818C25;
+}
+
+.num-iter-input{
+    font-size: 3vh;
+    height: 4vh;
+    width: 27vw;
+}
+
+input::placeholder{
+    font-size: 2vh;
+}
+
+.total-wrapper{
+    display:flex;
+    flex-direction: column;
+    margin: 0 0 0 4.5vw;
+}
+
+.selects-wrapper{
+    display: flex;
+    height: 4vh;
+}
+
+.select-wrapper{
+    flex-direction: row;
+}
+
+select{
+    height: 4vh;
+    width: 27.8vw;
+    background-color: #818C25;
+    color: #F7ECDE;
+    font-size: 3vh;
+    margin: 2vh 0 0 2vw;
+    font-family: Itim;
+}
+
+.tip-wr{
+    background-color:#818C25;
+    height: 10vh;
+    width: 25vw;
+    border-radius: 50px 50px 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4vh 0 0 3vw;
+}
+
+.koch-tip-wr{
+    background-color:#818C25;
+    height: 10vh;
+    width: 25vw;
+    border-radius: 0 50px 50px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4vh 0 0 3vw;
+}
+
+.tip-wr-text{
+    font-size: 2.5vh;
+}
+
+.canvas-button-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.dragon-owl{
+    position: absolute;
+    height: 30vh;
+    bottom: 0;
+    left: 0.2vw;
+}
+
+.koch-owl{
+    position: absolute;
+    height: 30vh;
+    bottom: 0;
+    left: 0.2vw;
+}
+
+.under-canvas{
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 0 2vw;
+}
+
+.slider{
+    background: beige;
+    margin: 2.4vh 0 0 7.2vw;
+}
+
+.slider-span{
+    margin: 1vh 0 0 0;
+}
+
+.slider-span-text{
+    font-size: 4vh;
+}
+
+input[type=range]{
+    background: beige !important;
+    color: green;
+}
+
+.iteration-tooltip{
+    position: absolute;
+    background-color: white;
+    border: 4px solid #B6BE53;
+    border-radius: 50px 50px 0 50px;
+    height: 10vh;
+    width: 15vw;
+    top: 25vh;
+    left: 4vw;
+    visibility: hidden;
+}
+
+.fr-tooltip{
+    position: absolute;
+    background-color: white;
+    border: 4px solid #B6BE53;
+    border-radius: 50px 50px 50px  0 ;
+    height: 15vh;
+    width: 22vw;
+    top: 36vh;
+    left: 14.5vw;
+    visibility: hidden;
+}
+
+.fr-tooltip-text{
+    color: black;
+    font-size: 2vh;
+    width: 17vw;
+    display: block;
+    margin: 1vh auto;
+}
+
+
+.iteration-tooltip-text{
+    color: black;
+    font-size: 2vh;
+    width: 12vw;
+    display: block;
+    margin: 0 auto;
+}
+
+.question-pic-fr{
+    width: 1.3vw;
+    position: absolute;
+    left:13.4vw;
+    top: 50vh;
+    cursor: help;
+}
+
+.question-pic-iter{
+    width: 1.3vw;
+    position: absolute;
+    left:23.4vw;
+    top: 35vh;
+    cursor: help;
+}
+
+.iter{
+    border-bottom: 3px #818C25 dashed;
+    cursor: help;
+}
+
+.iter-fr{
+    border-bottom: 3px #F7ECDE dashed;
+    cursor: help;
+}
+
+.button-ex-fr-pic{
+    width: 2.5vw;
+    position:absolute;
+    top:93.5vh;
+    left: 87vw;
+}
+
+.fr-pic{
+    position:absolute;
+    width: 2vw;
+    top: 10vh;
+    left: 17vw;
+}
+
+body.waiting * {
+    cursor: progress;
+}

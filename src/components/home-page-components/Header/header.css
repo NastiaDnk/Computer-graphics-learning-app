@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+.header-home{
+    height: 8.6vh;
+    width: 100vw;
+    width: auto;
+    background-color: #818C25;
+    color: #F7ECDE;
+    display: flex;
+    font-family: Itim;
+}
+
+.main-text{
+    font-size: 7.5vh;
+}
+
+.text-wrapper{
+    margin: 0 0 0 1.5vw;
+}

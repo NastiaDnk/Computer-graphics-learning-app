@@ -1,0 +1,42 @@
+.header{
+    height: 8.6vh;
+    width: auto;
+    background-color: #818C25;
+    color: #F7ECDE;
+    display: flex;
+}
+
+.main-text{
+    font-size: 6.07vh;
+}
+
+.button-wrapper{
+    margin: 0;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+button{
+    height: 8.5vh;
+    border-radius: 0;
+}
+
+.clr-button{
+    width: 22.82vw;
+    text-decoration: underline;
+    color: #FDC058;
+}
+
+.fr-button{
+    width: 22.34vw;
+}
+
+.tr-button{
+    width: 38.76vw;
+}
+
+.home-button{
+    width: 16.08vw;
+}
+

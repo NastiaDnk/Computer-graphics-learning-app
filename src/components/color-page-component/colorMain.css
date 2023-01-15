@@ -1,0 +1,333 @@
+
+
+.rgb-color-box{
+    width: 150px;
+  height: 150px;
+  border: 1px solid #fff;
+  background-color: black;
+  margin: 8vh;
+}
+
+.manager-wrapper{
+    height: 91.4vh;
+    width: 28vw;
+    background-color: #F7ECDE;
+    display: flex;
+    flex-direction: column;
+}
+
+.total-page-wrapper{
+    display: flex;
+    flex-direction: row;
+    height: 91.4vh;
+    background-color: #F7ECDE;
+}
+
+.canvas-pictures-wrapper{
+    width: 72vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.canvases{
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 0 3.3vw;
+}
+
+.separate-canvas{
+    display: flex;
+    flex-direction: column;
+    margin: 2.5vh;
+}
+
+.header-canvas{
+    width: 29.6vw;
+    height: 5vh;
+    background-color: #818C25;
+}
+
+.header-canvas-text{
+    font-size: 4vh;
+    color:#F7ECDE;
+    display: block;
+    text-align: center;
+    cursor: help;
+}
+
+.color-schemes{
+    display: flex;
+    flex-direction: row;
+}
+
+.upload-image-button{
+    width: 15vw;
+    font-size: 3.5vh;
+    height: 5.5vh;
+    text-align: left;
+    padding-left: 1vw;
+}
+
+.slider-color{
+    width: 15vw;
+    margin: 3vh 0 0 0;
+}
+
+.download-image-button{
+    width: 10vw;
+    height: 4.5vh;
+    font-size: 2.5vh;
+    margin: 0 0 0 19.6vw;
+    text-align: left;
+}
+
+.separate-color-scheme{
+    display: flex;
+    flex-direction: row;
+}
+
+.spans-wrappers{
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 0 4.7vw;
+}
+
+.color-span{
+    width: 6vw;
+    height: 5vh;
+    background-color: #D9D9D9;
+    text-align: center;
+}
+
+.col-canvas-wrapper{
+    margin: 0 0 0 5vh;
+}
+
+.spans-inner-wrappers{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.color-span-label{
+    font-size: 3.5vh;
+    margin: 0 0 2vh 2vw;
+}
+
+.color-span{
+    margin: 0 0 1.5vh 2vw;
+}
+
+.col-canvas-wrapper{
+    margin: 3vh 3vw;
+}
+
+.experiment-text{
+    font-size: 2.5vh;
+    color: #818C25;
+    margin: 3vh 0 0 0;
+}
+
+.manager-buttons-wrapper{
+    margin: 3vh 0 0 4vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.red-lightness-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin: 5vh 0 0 0;
+}
+
+.experiment-text-header{
+    font-size: 4vh;
+    color: #818C25;
+    margin-left: 1.5vw;
+    margin-top: 0.8vh;
+}
+
+.cancel-image-button{
+    width: 15vw;
+    font-size: 3.5vh;
+    height: 5.5vh;
+    margin: 2vh 0 0 0;
+}
+
+.col-tip-wr{
+    background-color:#818C25;
+    height: 10vh;
+    width: 24vw;
+    border-radius: 50px 50px 50px 0 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4vh 0 0 3vw;
+    position: absolute;
+    bottom: 20vh;
+    left: 7vw;
+    color: #F7ECDE;
+}
+
+.tip-wr-text{
+    font-size: 2.5vh;
+}
+
+.koch-owl{
+    position: absolute;
+    height: 30vh;
+    bottom: 0;
+    left: 0.2vw;
+}
+
+.tip-owl{
+    display: flex;
+    flex-direction: row;
+}
+
+
+ 
+  
+  input[type=range]:focus {
+    outline: none; /* Removes the blue border. You should probably do some kind of focus styling for accessibility reasons though. */
+  }
+  
+  .slider-color {
+    -webkit-appearance: none;
+    margin-right: 15px;
+    width: 23vw;
+    height: 7px;
+    border-radius: 5px;
+    background: linear-gradient(#818C25, #818C25);
+    
+    background-repeat: no-repeat;
+  }
+  
+  .slider-color::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: #B6BE53;
+    cursor: ew-resize;
+    box-shadow: 0 0 2px 0 #555;
+    margin-top: -7px;
+  }
+  
+ .slider-color::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 8.4px;
+    cursor: pointer;
+    background: #818C25;
+    border-radius: 1.3px;
+    border: 0.2px solid #010101;
+  }
+
+  .slider-color::-webkit-slider-thumb:disabled {
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: rgba(182, 190, 83, .5);
+    cursor: ew-resize;
+    box-shadow: 0 0 2px 0 #555;
+    margin-top: -7px;
+  }
+  
+ .slider-color::-webkit-slider-runnable-track:disabled {
+    width: 100%;
+    height: 8.4px;
+    cursor: pointer;
+    background: rgba(129, 140, 37, .5);
+    border-radius: 1.3px;
+    border: 0.2px solid #010101;
+  }
+
+  .red-pic-wr{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .red-pic{
+    width: 3vw;
+  }
+
+  .button-ex-rgb-pic{
+    width: 1.8vw;
+    position:absolute;
+    top: 67.3vh;
+    left:60vw;
+  }
+
+  .button-ex-hsl-pic{
+    width: 1.8vw;
+    position:absolute;
+    top: 67.3vh;
+    left:92vw;
+  }
+
+  .button-ex-imp-pic{
+    position:absolute;
+    width: 2.2vw;
+    top: 12vh;
+    left: 16vw;
+  }
+
+  .lightness-tooltip{
+    position: absolute;
+    background-color: white;
+    border: 4px solid #B6BE53;
+    border-radius: 50px 50px 0 50px;
+    height: 10vh;
+    width: 15vw;
+    top: 12vh;
+    left: 4vw;
+    visibility: hidden;
+}
+
+.lightness-tooltip-text{
+    color: black;
+    font-size: 2vh;
+    width: 12vw;
+    display: block;
+    margin: 2vh auto;
+}
+
+.iter{
+    border-bottom: 3px #818C25 dashed;
+    cursor: help;
+}
+
+.question-pic-l{
+    width: 1.3vw;
+    position: absolute;
+    left:26.4vw;
+    top: 22vh;
+    cursor: help;
+}
+
+.question-hsl{
+    width: 1.4vw;
+    position:absolute;
+    left:81.2vw;
+    top: 12.3vh;
+}
+
+.question-rgb{
+    width: 1.4vw;
+    position:absolute;
+    left:49.2vw;
+    top: 12.3vh;
+}
+#diverror{
+    display: none;
+}
+#rgbTip{
+    display: none;
+}
+#hslTip{
+    display: none;
+}
+#colorTip{
+    display: none;
+}
